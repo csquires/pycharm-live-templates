@@ -1,0 +1,27 @@
+<templateSet group="user">
+  <template name="prop" value="React.PropTypes" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="getRequest" value="return utils.getRequest().then((res) =&gt; {&#10;&#10;)).catch((err) =&gt; {&#10;&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mapState" value="const mapStateToProps = (state) =&gt; ({&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mapDisp" value="const mapDispatchToProps = (dispatch) =&gt; ({&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="action" value="{&#10;    type: ActionTypes.,&#10;    payload: {&#10;    &#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
